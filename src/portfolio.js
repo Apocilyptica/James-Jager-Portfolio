@@ -221,7 +221,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH, AND APPLICATION I HAVE BUILT",
   projects: [
     {
       image: require("./assets/images/GRBBLogo.png"),
@@ -261,13 +261,25 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Certification of Completion",
+      subtitle:
+        "Certificate of Competency from an accredited software university in Full Stack Development.  Curriculum included over 600+ hours learning (Python, HTML, JavaScript, CSS, SASS, React, NodeJS, MySQL, Git, UML)",
+      image: require("./assets/images/Bottega.jpg"),
+      footerLink: [
+        {
+          name: "Final Project",
+          url: "https://ecommerce-website-bbf5f.firebaseapp.com/",
+        },
+      ],
+    },
+    {
+      title: "Certification of Completion",
       subtitle: "Completed 11 total hours of AWS AppSync & Amplify with React & GraphQL",
       image: require("./assets/images/UdemyCertificate.jpg"),
       footerLink: [
-        //   {
-        //     name: "Certification",
-        //     url: "",
-        //   },
+        {
+          name: "Final Project",
+          url: "https://blogapi.d39zefrjra8elm.amplifyapp.com/",
+        },
         // {
         //   name: "Award Letter",
         //   url: "",
@@ -289,19 +301,6 @@ const achievementSection = {
         },
       ],
     },
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "" },
-    //     {
-    //       name: "Final Project",
-    //       url: "",
-    //     },
-    //   ],
-    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
