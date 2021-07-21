@@ -98,6 +98,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Wayland High",
+      logo: require("./assets/images/waylandLogo.jpg"),
+      subHeader: "Diploma",
+      duration: "September 1999 - March 2003",
+      desc: "High School Graduation",
+      descBullets: null,
+    },
+    {
       schoolName: "Grand Rapids Community College",
       logo: require("./assets/images/GRCCLogo.png"),
       subHeader: "Machine Builder III",
@@ -112,6 +120,14 @@ const educationInfo = {
       duration: "November 2019 - November 2020",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, 600+ hours of classes.",
       descBullets: ["Python HTML JavaScript CSS SASS React NodeJS MySQL Git UML"],
+    },
+    {
+      schoolName: "Clever Programer",
+      logo: require("./assets/images/cpLogo.png"),
+      subHeader: "Currently Attending",
+      duration: "March 2021 - Now",
+      desc: "A program that'll turn you into a beast, and teach you how to profit and make an income as a modern web developer.",
+      descBullets: ["HTML JavaScript CSS SASS React React-Redux React-Hooks NodeJS Git UML Firebase"],
     },
   ],
 };
@@ -155,7 +171,7 @@ const techStack = {
     },
     {
       Stack: "firebase",
-      progressPercentage: "65%",
+      progressPercentage: "86%",
     },
   ],
   displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -219,17 +235,18 @@ const bigProjects = {
         //  you can add extra buttons here.
       ],
     },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: ""
-    //     }
-    //   ]
-    // }
+    {
+      image: require("./assets/images/portfolio.PNG"),
+      projectName: "My Portfolio(Under Development)",
+      projectDesc:
+        "Building a WOW!! factor Portfolio, using all the knowledge I have gained over the past couple of years.  Developing complex features out of my comfort zone to further my knowledge",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://james-jager-portfolio.firebaseapp.com/",
+        },
+      ],
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
